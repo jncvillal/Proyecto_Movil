@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SGISSO</string>
+    <string name="txtTitulo">Sistema de Gestion e Informacion</string>
+    <string name="botonComenzar">COMENZAR</string>
+</resources>
