@@ -1,0 +1,4 @@
+com/example/sgisso/BuildConfig.java
+ com.example.sgisso.BuildConfig
+com/example/sgisso/MainActivity.java
+ com.example.sgisso.MainActivity
