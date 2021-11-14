@@ -1,6 +1,22 @@
 <resources>
     <string name="app_name">SGISSO</string>
-    <string name="txtTitulo">Sistema de Reporte de Informacion de Seguridad Industrial y Ocupacional</string>
-    <string name="botonComenzar">COMENZAR</string>
-    <string name="imgPrincipal">Imagen principal</string>
+    <string name="txt_titulo">Sistema de Reporte de Informacion de Seguridad Industrial y Ocupacional</string>
+    <string name="btn_comenzar">COMENZAR</string>
+    <string name="img_principal">Imagen principal</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_creador">Creador</string>
+    <string name="spn_proceso">Proceso</string>
+    <string name="spn_tipo_incidente">Tipo Incidente</string>
+    <string name="spn_tipo_trabajador">Tipo Trabajador</string>
+    <string name="txt_descripcion_incidente">Descripcion Incidente</string>
+    <string name="btn_registrar_incidentes">Registrar</string>
+    <string name="txt_observador">Observador</string>
+    <string name="txt_responsable">Responsable</string>
+    <string name="txt_descripcion_condicion_insegura">Descripcion Condicion Insegura</string>
+    <string name="btn_registrar_condicion_insegura">Registrar</string>
+    <string name="spn_tipo_riesgo">Tipo de riesgo</string>
+    <string name="spn_nivel_riesgo">Nivel de Riesgo</string>
+    <string name="btn_incidentes">Incidentes</string>
+    <string name="btn_condicones_inseguras">Condiciones Inseguras</string>
 </resources>

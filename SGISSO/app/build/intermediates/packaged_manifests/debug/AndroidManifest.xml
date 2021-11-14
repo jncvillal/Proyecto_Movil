@@ -19,6 +19,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.SGISSO" >
         <activity
+            android:name="com.example.sgisso.CondicionesSegurasActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sgisso.IncidentesActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.sgisso.MainActivity"
             android:exported="true" >
             <intent-filter>

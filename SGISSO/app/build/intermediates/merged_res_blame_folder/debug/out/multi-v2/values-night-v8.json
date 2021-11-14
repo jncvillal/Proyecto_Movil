@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/run/media/jvilla/12B261A1B26189D5/Programacion/Ciclo_04/ProyectoFinal/SGISSO/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/jvilla/Programacion/Ciclo_04/Proyecto_Movil/SGISSO/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/run/media/jvilla/12B261A1B26189D5/Programacion/Ciclo_04/ProyectoFinal/SGISSO/app/src/main/res/values-night/themes.xml",
+                    "source": "/home/jvilla/Programacion/Ciclo_04/Proyecto_Movil/SGISSO/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

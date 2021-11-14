@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SGISSO.iml" filepath="$PROJECT_DIR$/.idea/modules/SGISSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SGISSO.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SGISSO.app.iml" />
     </modules>
   </component>
 </project>

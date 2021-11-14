@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/run/media/jvilla/12B261A1B26189D5/Programacion/Ciclo_04/ProyectoFinal/SGISSO/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "/home/jvilla/Programacion/Ciclo_04/Proyecto_Movil/SGISSO/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/jvilla/.gradle/caches/transforms-3/f794c157ce27c216c504b2261e60ef5d/transformed/material-1.4.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",

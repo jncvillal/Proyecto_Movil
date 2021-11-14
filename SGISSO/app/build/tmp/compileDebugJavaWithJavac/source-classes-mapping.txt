@@ -1,4 +1,12 @@
+com/example/sgisso/SQLCondicionesInseguras.java
+ com.example.sgisso.SQLCondicionesInseguras
+com/example/sgisso/IncidentesActivity.java
+ com.example.sgisso.IncidentesActivity
+com/example/sgisso/SQLIncidentes.java
+ com.example.sgisso.SQLIncidentes
 com/example/sgisso/BuildConfig.java
  com.example.sgisso.BuildConfig
+com/example/sgisso/CondicionesSegurasActivity.java
+ com.example.sgisso.CondicionesSegurasActivity
 com/example/sgisso/MainActivity.java
  com.example.sgisso.MainActivity

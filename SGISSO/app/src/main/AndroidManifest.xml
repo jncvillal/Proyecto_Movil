@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SGISSO">
         <activity
+            android:name=".CondicionesSegurasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IncidentesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
