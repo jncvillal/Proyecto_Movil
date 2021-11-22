@@ -1,4 +1,10 @@
-com/example/sgisso/BuildConfig.java
- com.example.sgisso.BuildConfig
+com/example/sgisso/GPS.java
+ com.example.sgisso.GPS
+ com.example.sgisso.GPS$1
+ com.example.sgisso.GPS$2
+ com.example.sgisso.GPS$3
 com/example/sgisso/MainActivity.java
  com.example.sgisso.MainActivity
+ com.example.sgisso.MainActivity$1
+com/example/sgisso/BuildConfig.java
+ com.example.sgisso.BuildConfig

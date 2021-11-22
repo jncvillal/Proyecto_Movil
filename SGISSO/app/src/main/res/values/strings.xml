@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SGISSO</string>
-    <string name="txtTitulo">Sistema de Reporte de Informacion de Seguridad Industrial y Ocupacional</string>
-    <string name="botonComenzar">COMENZAR</string>
-    <string name="imgPrincipal">Imagen principal</string>
+    <string name="textwarn"></string>
+    <string name="settings"></string>
+    <string name="btn">Start Process</string>
+    <string name="text2">Sistema de Gestión e Información en Seguridad y Salud Ocupacional</string>
 </resources>
