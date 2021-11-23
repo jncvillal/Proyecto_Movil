@@ -2293,6 +2293,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id textView3
 id text_input_end_icon
 id text_input_error_icon
@@ -2626,6 +2628,8 @@ string settings
 string status_bar_notification_info_overflow
 string text2
 string textwarn
+string tittle_1
+string tittle_2
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

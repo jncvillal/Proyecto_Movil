@@ -64,7 +64,7 @@ public class GPS extends AppCompatActivity {
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
-        getSupportActionBar().setTitle("coordinates and date");
+        getSupportActionBar().setTitle("Coordenadas/Fecha&Hora");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

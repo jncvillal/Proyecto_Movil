@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">SGISSO</string>
+    <string name="tittle_1">Coordenadas</string>
+    <string name="tittle_2">Fecha y Hora</string>
     <string name="textwarn"></string>
     <string name="settings"></string>
     <string name="btn">Start Process</string>
