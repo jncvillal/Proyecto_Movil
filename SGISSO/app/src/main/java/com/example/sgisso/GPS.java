@@ -53,11 +53,11 @@ public class GPS extends AppCompatActivity {
         CurrentTime = (TextView) findViewById(R.id.CurrentTime);
         CurrentDate = (TextView) findViewById(R.id.CurrentDate);
 
-        CurrentTime.setText(String.format("Time: "+getCurrentTime()));
-        CurrentDate.setText(String.format("Date: "+getCurrentDate()));
+        CurrentTime.setText(String.format("Hora: "+getCurrentTime()));
+        CurrentDate.setText(String.format("Fecha: "+getCurrentDate()));
 
-        mLatitudeLabel = "latitude";
-        mLongitudeLabel = "longitude";
+        mLatitudeLabel = "latitud";
+        mLongitudeLabel = "longitud";
         mLatitudeText = (TextView) findViewById((R.id.latitude_text));
 
         mLongitudeText = (TextView) findViewById((R.id.longitude_text));
