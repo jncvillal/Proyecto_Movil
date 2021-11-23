@@ -23,9 +23,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
 
 public class GPS extends AppCompatActivity {
+
+    TextView CurrentDate, CurrentTime;
 
     protected Location mLastLocation;
 
@@ -45,17 +50,34 @@ public class GPS extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gps);
 
+        CurrentTime = (TextView) findViewById(R.id.CurrentTime);
+        CurrentDate = (TextView) findViewById(R.id.CurrentDate);
+
+        CurrentTime.setText(String.format("Time: "+getCurrentTime()));
+        CurrentDate.setText(String.format("Date: "+getCurrentDate()));
+
         mLatitudeLabel = "latitude";
         mLongitudeLabel = "longitude";
         mLatitudeText = (TextView) findViewById((R.id.latitude_text));
+
         mLongitudeText = (TextView) findViewById((R.id.longitude_text));
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
-        getSupportActionBar().setTitle("GPS coordinates");
+        getSupportActionBar().setTitle("coordinates and date");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+
     }
+
+    private String getCurrentTime(){
+        return new SimpleDateFormat("hh:mm",Locale.getDefault()).format(new Date());
+    }
+
+    private String getCurrentDate(){
+        return new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(new Date());
+    }
+
     @Override
     public void onStart() {
         super.onStart();
@@ -175,6 +197,7 @@ public class GPS extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Location> task) {
                         if (task.isSuccessful() && task.getResult() != null) {
+
                             mLastLocation = task.getResult();
 
                             mLatitudeText.setText(String.format(Locale.ENGLISH, "%s: %f",

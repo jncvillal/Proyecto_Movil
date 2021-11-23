@@ -5,24 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context="com.example.sgisso.MainActivity">
 
     <TextView
         android:id="@+id/latitude_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="60dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
         android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/longitude_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="60dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:textIsSelectable="true" />
+
+    <TextView
+
+        android:id="@+id/CurrentTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textIsSelectable="true"/>
+
+    <TextView
+
+        android:id="@+id/CurrentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textIsSelectable="true"/>
 
 
 

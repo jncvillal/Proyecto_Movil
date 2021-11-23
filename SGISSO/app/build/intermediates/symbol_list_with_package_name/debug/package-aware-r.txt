@@ -1867,6 +1867,8 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id CurrentDate
+id CurrentTime
 id FUNCTION
 id META
 id NO_DEBUG
