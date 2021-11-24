@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474407021863",
+    "firebase_url": "https://prueba-636f2-default-rtdb.firebaseio.com",
+    "project_id": "prueba-636f2",
+    "storage_bucket": "prueba-636f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474407021863:android:a40a1e171c2f1605620d02",
+        "android_client_info": {
+          "package_name": "com.misiontic.prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474407021863-tpnb6r712l7k8cahj7okro1c3pvmovme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASgRknzoyBU6Lexj-siJlWwJs7lV5lzAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474407021863-tpnb6r712l7k8cahj7okro1c3pvmovme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
